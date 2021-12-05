@@ -43,9 +43,9 @@
 
 #Yuqoridagi o'zgaruvchilarning qiymatini foydalanuvchidan so'rang.
 print("Iltimos, quyidagi ma'lumotlarni kiriting:")
-kocha = input("Ko'changiz: ")
-mahalla = input("Mahallangiz: ")
-tuman = input("Tumaningiz: ")
-viloyat = input("Viloyatingiz: ")
+kocha = input("Ko'changiz: ").title()
+mahalla = input("Mahallangiz: ").title()
+tuman = input("Tumaningiz: ").title()
+viloyat = input("Viloyatingiz: ").title()
 print(kocha + " ko'chasi, " + mahalla + " mahallasi, " + \
       tuman + " tumani, " + viloyat + " viloyati") 
